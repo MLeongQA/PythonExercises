@@ -1,7 +1,5 @@
 def near(string1, string2):
-    if len(string1)-1 != len(string2):
-        return False
-    else:
+    if len(string1) - len(string2) = 1:
         letter_condition = False
         count = 0
         for i in string2:
@@ -14,6 +12,8 @@ def near(string1, string2):
                 return False
 
         return True
+    else:
+        return False
 
 print(near("reset", "rest"))
 print(near("dragoon", "dragon"))
