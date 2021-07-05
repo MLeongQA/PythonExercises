@@ -1,5 +1,5 @@
 def near(string1, string2):
-    if len(string1) - len(string2) = 1:
+    if len(string1) - len(string2) == 1:
         letter_condition = False
         count = 0
         for i in string2:
